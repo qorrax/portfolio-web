@@ -1,0 +1,10 @@
+
+.navbar-custom {
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-custom .nav-link {
+    margin-right: 10px;
+}

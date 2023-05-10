@@ -1,0 +1,15 @@
+
+.hero-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+  
+  .hero-section-card {
+    width: 100%;
+    max-width: 18rem;
+  }
+  
+  
+  

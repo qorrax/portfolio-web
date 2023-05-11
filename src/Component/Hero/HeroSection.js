@@ -37,7 +37,22 @@ function HeroSection() {
   return (
     <div className="hero-section-container">
       <Card className="hero-section-card">
-        <Card.Img variant="top" src="https://media.licdn.com/dms/image/D5603AQGXBX-xdnkrMg/profile-displayphoto-shrink_800_800/0/1682628733535?e=1689206400&v=beta&t=udKUB0S5E-eHcUpGKGggGW1Iv9kViVLGZ1dgrN8vbGY" />
+        {/* <Card.Img variant="top" src="holder.js/100px180" />
+          
+          <div className="hero-section-image" /> */}
+        <Card.Body>
+          <Card.Title>Card Title</Card.Title>
+          <Card.Text>
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </Card.Text>
+          <Button variant="primary">Go somewhere</Button>
+        </Card.Body>
+      </Card>
+       <Card className="hero-section-card">
+        <Card.Img variant="top" src="holder.js/100px180" />
+          
+          <div className="hero-section-image" />
         <Card.Body>
           <Card.Title>Card Title</Card.Title>
           <Card.Text>

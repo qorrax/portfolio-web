@@ -1,31 +1,4 @@
 
-// import React from 'react';
-// // import { Card, CardImg, CardBody, CardTitle, CardText } from 'react-bootstrap';
-
-// const HeroSection = ({ image,  title, description }) => {
-//   return (
-
-
-//     <h1>Hero Section</h1>
-    
-//     // <Card className="hero-section">
-//     //       <CardImg src={image} alt="Card image cap" />
-//     //        <CardBody>
-//     //         <CardTitle>{title}</CardTitle>
-//     //          <CardText>{description}</CardText>
-//     //       </CardBody>
-//     //      </Card>
-//   );
-// };
-
-
-
-// import React from 'react';
-// import './HeroSection.css';
-
-// import Button from 'react-bootstrap/Button';
-// import Card from 'react-bootstrap/Card';
-
 
 import React from 'react';
 import Button from 'react-bootstrap/Button';
@@ -67,4 +40,5 @@ function HeroSection() {
 }
 
 export default HeroSection;
+
 

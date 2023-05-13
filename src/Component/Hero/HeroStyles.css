@@ -7,11 +7,16 @@
     margin-top: 20px;
     border: 5px solid #0d0f0e;
     border-color: rgb(164, 168, 168);
+    background-color: rgb(234, 237, 230);
   }
   
   .hero-section-card {
     width: 100%;
     max-width: 20rem;
+    height: auto;
+    
+    
+
 
   }
 

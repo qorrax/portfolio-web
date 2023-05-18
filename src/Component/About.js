@@ -2,8 +2,8 @@
 
 import React from 'react';
 import HeroSection from  "./Hero/HeroSection";
-// import icons from "./"
-import  Footer  from "./Footer";
+import icons from "./icons";
+
 
 
 function About() {
@@ -12,7 +12,7 @@ function About() {
   
       <div className="about-section">
       <HeroSection/>
-       <Footer/>
+       <icons/>
       </div>
     
   );
